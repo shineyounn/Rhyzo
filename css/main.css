@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+
+/* 헤더 */
+header {
+    width: 100%;
+    height: 264px;
+    position: absolute;
+    background-color: rgb(3, 0, 26);
+    color:#F2D789
+}
+header h1{font-size:64px; display:flex; justify-content: center; margin-top:72px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 64px;
+    gap: 30px;
+}
+
+.menu li {
+    font-size: 16px;
+    cursor: pointer;
+    padding: 16px 32px;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.menu li:hover {
+    color: #fff;
+    transform: scale(1.1);
+}
+/* 섹션1 */
+#section1{
+    width: 100%;
+    height: 775px;
+  background: rgb(3, 0, 26);
+    
+}
+
+/* 섹션2 - 그라데이션 넣는 부분*/
+#section2{
+    width: 100%;
+    height: 549px;
+    background: linear-gradient(
+        to bottom,
+        rgb(3, 0, 26) 40%,
+          #4801ff 100%
+        );
+}
+/* 섹션3 */
+#section3{
+    width: 100%;
+    height: 908px;
+    background-color: #4801ff;
+    color:#FF6B00;
+}
+
+#section3 .container p{
+    font-size:32px;
+    display:flex; justify-content: center; 
+    font-weight:bold;
+}
+#section3 .container h1{
+    font-size:208px;  display:flex; justify-content: center; }
+    #section3 .container h3{
+        font-size:30px;
+        display:flex; justify-content: center; 
+        text-align: center;
+        line-height:48px;
+    }
+
+/* 섹션4 */
+#section4{
+    width: 100%;
+    height: 1144px;
+    background-color: #4801ff;
+}
+#section4 .container p{font-size:24px;  display:flex; justify-content: center; 
+    font-weight:bold; color:#FFE588;
+
+}
+#section4 .container .cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 1400px;
+    height:602px;
+    margin-top: 141px;
+    background-color: #4801ff;
+}
+
+#section4 .container .card {
+    width: 446px;
+    height: 520px;
+   
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    align-items: flex-start; 
+  
+}
+
+#section4 .container .card img {
+    width: 100%;
+    height:100%;
+    border-radius: 10px;  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#section4 .container .song-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 24px;
+    color: #FFE588;
+    display:flex; justify-content:flex-start;
+    text-align: left;
+}
+
+#section4 .container .artist {
+    font-size: 16px;
+    color: #FFE588;
+    display:flex; justify-content:flex-start;
+    text-align: left; /* 왼쪽 정렬 */
+    margin-top:8px;
+}
+
+#section4.button {
+    margin-top: 141px;
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+#section4 .button:hover {
+    background-color: #333;
+}
+
+/* 섹션5 */
+#section5{
+    width: 100%;
+    height: 1007px;
+    background-color:  rgb(3, 0, 26);
+}
+
+
+/* 섹션6 */
+#section6{
+    width: 100%;
+    height: 631px;
+    background: linear-gradient(
+        to bottom,
+        rgb(3, 0, 26) 40%,
+          #4801ff 100%
+        );
+}

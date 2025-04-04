@@ -7,13 +7,14 @@ header {
     height: 264px;
     background-color: rgb(3, 0, 26);
     color: #F2D789;
-    padding-top:72px;
+    padding-top: 72px;
 }
 
 header h1 {
     font-size: 64px;
     display: flex;
-    justify-content: center;
+    justify-content: center; font-family:"Raleway", sans-serif;
+    
 }
 
 .menu {
@@ -47,38 +48,53 @@ header h1 {
 
 }
 
-#section1 img{border-radius: 30px;}
+#section1 .container h1 {
+    color: #FF6B00;
+    font-size: 208px;
+    position: absolute;
+    z-index: 10;
+    top: 15%;
+    right: 47%;
+    font-family: "Raleway", sans-serif;
+}
 
-#section1 img:nth-child(1) {  
+#section1 img {
+    border-radius: 30px;
+}
+
+#section1 img:nth-child(1) {
     width: 275px;
     height: 275px;
     transform: translateY(-100px);
     filter: brightness(90%);
 }
 
-#section1 img:nth-child(2) {   
+#section1 img:nth-child(2) {
     width: 445px;
     height: 755px;
     transform: translateX(260px);
 }
 
 
-#section1 img:nth-child(3) {  
+#section1 img:nth-child(3) {
     width: 222px;
     height: 222px;
     transform: translate(400px, -400px);
     filter: grayscale(20%);
 }
+
 /* 버튼 스타일 */
 
-#section2 .button-{    display: flex;
-    justify-content: center;}
+#section2 .button- {
+    display: flex;
+    justify-content: center;
+}
 
-    #section2 .container
-{    
-        padding-top: 196px;}
+#section2 .container {
+    padding-top: 196px;
+}
 
-    
+
 #section2 .button {
     padding: 15px 40px;
     background-color: rgba(255, 255, 255, 0.1);
@@ -88,8 +104,8 @@ header h1 {
     cursor: pointer;
     font-size: 24px;
     transition: opacity 0.3s ease;
-   margin-left: 40px;
-   margin-right: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 #section2 .button:hover {
@@ -102,18 +118,19 @@ header h1 {
     width: 100%;
     height: 549px;
     background: linear-gradient(to bottom,
-            rgb(3, 0, 26) 40%,
+            rgb(3, 0, 26) 2%,
             #4801ff 100%);
 }
 
 /* 섹션3 */
 #section3 {
     width: 100%;
-    height: 908px;
+    height: 800px;
     background-color: #4801ff;
     color: #FF6B00;
 }
 
+#section3 .container{padding-top: 40px;}
 #section3 .container p {
     font-size: 32px;
     display: flex;
@@ -155,7 +172,7 @@ header h1 {
     justify-content: center;
     font-weight: bold;
     color: #FFE588;
-width:50%
+    width: 50%
 }
 
 
@@ -233,17 +250,15 @@ width:50%
 /* 섹션5 */
 #section5 {
     width: 100%;
-    height: 1241px;
+    height: 1310px;
     background-color: rgb(3, 0, 26);
 }
-#section5 .container
-{    display: flex
-    ;
-        padding-top: 100px;}
 
-#section5 .container .container5 {
-    width: 40%;
+#section5 .container {
+    display: flex;
+    padding-top: 100px;
 }
+
 
 #section5 .container .container5 p {
     color: #ECECEC;
@@ -256,7 +271,10 @@ width:50%
     color: #ECECEC;
     font-weight: lighter;
 }
-#section5 .container .container5 strong{ color: #FF6B00;}
+
+#section5 .container .container5 strong {
+    color: #FF6B00;
+}
 
 #section5 .container .container5 h6 {
     font-size: 24px;
@@ -287,19 +305,19 @@ width:50%
     display: flex;
     flex-direction: column;
     gap: 35px;
-    align-items: flex-end; 
+    align-items: flex-end;
     padding-top: 55px;
-    
+
 }
 
 /* 카드 스타일 */
 #section5 .card {
     display: flex;
     align-items: center;
-    background-color: #3b3b3b;
+    background-color: rgba(224, 224, 224, 0.3);
     border-radius: 30px;
     padding: 15px;
-    gap: 20px;
+    gap: 24px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     width: 695px;
     height: 325px;
@@ -316,8 +334,10 @@ width:50%
 #section5 .card-content {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* 텍스트를 위로 정렬 */
-    gap: 142px; /* 간격 조정 */
+    justify-content: flex-start;
+    /* 텍스트를 위로 정렬 */
+    gap: 142px;
+    /* 간격 조정 */
     margin-left: 16px;
 }
 
@@ -331,17 +351,18 @@ width:50%
     font-size: 20px;
     color: #B0B0B0;
 }
+
 /* 섹션6 */
 #section6 {
     width: 100%;
-    height: 1631px;
+    height: 1200px;
     background: linear-gradient(to bottom,
-            rgb(3, 0, 26) 60%,
-            #4801ff 100%);
+            rgb(30, 0, 255) 60%,
+            rgb(3, 0, 26) 100%);
 }
 
 #section6 .container .container6 {
-    padding-top: 204px;
+    padding-top: 96px;
 }
 
 #section6 .container .container6 p {
@@ -352,7 +373,7 @@ width:50%
 #section6 .container .container6 h3 {
     font-size: 64px;
     margin-top: 16px;
-    color:#FF6B00; 
+    color: #FF6B00;
     font-weight: lighter;
 }
 
@@ -361,4 +382,64 @@ width:50%
     margin-top: 16px;
     color: #ECECEC;
     font-weight: lighter;
+}
+
+/* 리뷰 슬라이더 스타일 */
+.slider {
+    overflow: hidden;
+    width: 1400px;
+    max-width: 100%;
+    position: relative;
+    margin-top: 110px;
+}
+
+.review {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.review-card {
+    min-width: 384px;
+    height: 400px;
+    background: rgba(224, 224, 224, 0.3);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 30px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease-in-out;
+}
+
+#section6 h4 {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: left;
+    color: #B0B0B0;
+    margin-top: 24px;
+}
+
+
+#section6 .box { width:100px; height:32px;
+    background-color: #FF6B00; margin-top:16px;
+    border-radius: 30px; font-weight:bold; color: #0c002a; line-height:32px;
+}
+
+#section6 p {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 8px;
+    color:#B0B0B0;
+}
+
+
+/* 카드 호버 효과 */
+.review-card:hover {
+    transform: translateY(-10px);
+}
+
+.review-card img {
+    width: 346px;
+    height: 160px;
+    border-radius: 15px;
+    margin-top: 18px;
 }

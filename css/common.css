@@ -31,5 +31,7 @@ body {
 
 }
 
-.container{width:1400px; height:100%; margin:0 auto; background-color: rgb(255, 0, 0, 0.5);}
+.container{width:1400px; height:100%; margin:0 auto;
+     /* background-color: rgb(255, 0, 0, 0.5); */
+}
 
